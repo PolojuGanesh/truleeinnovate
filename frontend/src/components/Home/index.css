@@ -1,0 +1,73 @@
+.main-home-container {
+  background-size: cover;
+  padding: 3%;
+}
+
+.heading-and-add-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-heading {
+  font-family: "Roboto";
+  font-size: 28px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.add-button {
+  background-color: transparent;
+  border: 1px solid gray;
+  font-family: "Roboto";
+  padding: 7px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: blueviolet;
+  color: #ffffff;
+}
+
+.search-and-filter-container {
+}
+
+.search-input {
+  border: 1px solid gray;
+  outline: none;
+  color: #000000;
+  padding: 12px;
+  border-radius: 10px;
+  margin-right: 1%;
+  width: 80%;
+}
+
+.table-main-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.table {
+  border: 1px solid gray;
+  font-family: "Roboto";
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.table-cells {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.filters-container {
+  margin-left: 2%;
+}
+
+.checkbox {
+  height: 15px;
+  width: 15px;
+}

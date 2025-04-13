@@ -1,0 +1,14 @@
+GET http://localhost:3000/
+###
+
+POST http://localhost:3000/add-candidate
+Content-Type: application/json
+
+{
+    "name": "Lucky",
+    "phone": "0123456789",
+    "email": "lucky@gmail.com",
+    "gender": "female",
+    "experience": "2",
+    "skills": "HTML"
+}

@@ -1,0 +1,82 @@
+.add-candidate-main-container {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: 0px 4px 16px 0px gray;
+  width: 30%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.label {
+  font-family: "Roboto";
+  font-size: 17px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.input {
+  border: 1px solid gray;
+  outline: none;
+  color: #000000;
+  padding: 9px;
+  border-radius: 5px;
+  margin-right: 1%;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  background-color: transparent;
+  border: 1px solid gray;
+  font-family: "Roboto";
+  padding: 7px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: blueviolet;
+  color: #ffffff;
+}
+
+.back-to-home-button {
+  background-color: transparent;
+  border: 1px solid gray;
+  font-family: "Roboto";
+  padding: 7px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.back-to-home-button:hover {
+  background-color: blueviolet;
+  color: #ffffff;
+}
+
+.error-msg {
+  font-family: "Roboto";
+  font-size: 17px;
+  color: red;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
