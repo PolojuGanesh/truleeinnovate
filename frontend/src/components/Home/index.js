@@ -69,7 +69,7 @@ const Home = () => {
   };
 
   const getCandidatesData = async () => {
-    const url = "http://localhost:4000";
+    const url = "https://truleeinnovate-r4p6.onrender.com/";
     const options = {
       method: "GET",
     };
