@@ -4,6 +4,7 @@ const cors = require("cors");
 const sqlite3 = require("sqlite3");
 const path = require("path");
 const app = express();
+const port = process.env.PORT || 4000;
 app.use(cors());
 const dbPath = path.join(__dirname, "test.db");
 app.use(express.json());
@@ -12,7 +13,7 @@ let db;
 const initializeDbAndServer = async () => {
   try {
     db = await open({ filename: dbPath, driver: sqlite3.Database });
-    app.listen(3000, () => console.log("Server Has Been Started"));
+    app.listen(port, () => console.log("Server Has Been Started"));
   } catch (error) {
     console.log(`Database error ${error}`);
     process.exit(1);

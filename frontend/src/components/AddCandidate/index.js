@@ -64,7 +64,7 @@ const AddCandidate = () => {
   const onSubmitForm = async (event) => {
     event.preventDefault();
     const candidateDetails = { name, phone, email, gender, experience, skills };
-    const url = `http://localhost:3000/add-candidate`;
+    const url = `http://localhost:4000/add-candidate`;
     const options = {
       method: "POST",
       headers: { "Content-Type": "application/json" },

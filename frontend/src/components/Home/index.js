@@ -69,7 +69,7 @@ const Home = () => {
   };
 
   const getCandidatesData = async () => {
-    const url = "https://truleeinnovate-jwx5.vercel.app/";
+    const url = "http://localhost:4000";
     const options = {
       method: "GET",
     };

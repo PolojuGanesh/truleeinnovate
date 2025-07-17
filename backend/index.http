@@ -1,7 +1,7 @@
-GET http://localhost:3000/
+GET http://localhost:4000/
 ###
 
-POST http://localhost:3000/add-candidate
+POST http://localhost:4000/add-candidate
 Content-Type: application/json
 
 {
