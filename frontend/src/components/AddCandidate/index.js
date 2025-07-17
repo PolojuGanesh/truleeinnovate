@@ -64,7 +64,7 @@ const AddCandidate = () => {
   const onSubmitForm = async (event) => {
     event.preventDefault();
     const candidateDetails = { name, phone, email, gender, experience, skills };
-    const url = `http://localhost:4000/add-candidate`;
+    const url = `https://truleeinnovate-r4p6.onrender.com/add-candidate`;
     const options = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
